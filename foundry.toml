@@ -1,0 +1,22 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+solc_version = "0.8.20"
+
+[rpc_endpoints]
+linea-testnet = "https://linea-sepolia.infura.io/v3/${INFURA_API_KEY}"
+linea-mainnet = "https://linea-mainnet.infura.io/v3/${INFURA_API_KEY}"
+
+[etherscan]
+linea-testnet = { key = "${LINEASCAN_API_KEY}", url = "https://api-testnet.lineascan.build/api" }
+linea-mainnet = { key = "${LINEASCAN_API_KEY}", url = "https://api.lineascan.build/api" }
+
+
+# Deployer: 0x2f2F0ed5FC28B99E899d395F19E7982cf5C01B14
+# Deployed to: 0x17fd0Fe7b526D70E9eF518f8bA0464Be75EDfF66
+# Transaction hash: 0x26c894f0d3147f3001d3f547ec0d2a8a390b4a98bd0c72d1a3912a4d325476e1
+
+# Deployer: 0x2f2F0ed5FC28B99E899d395F19E7982cf5C01B14
+# Deployed to: 0xB77Fe0162E2162f1c157368F7E8AFAAE4F404f2C
+# Transaction hash: 0xdc9cc43dea813e7f8ebb7b8f13bf2d646b93508fbfe4076c1a909f285ccae21d
